@@ -34,7 +34,7 @@ end;
 
 procedure TForm3.Button2Click(Sender: TObject);
 begin
-  self.DateTimePicker1.DateTime := self.DateTimePicker1.DateTime + 1;
+  self.DateTimePicker1.DateTime := self.DateTimePicker1.DateTime -1;
 end;
 
 end.
