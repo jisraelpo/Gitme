@@ -39,4 +39,13 @@ object Form3: TForm3
     Time = 42555.532306435180000000
     TabOrder = 2
   end
+  object Button2: TButton
+    Left = 344
+    Top = 8
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
 end
